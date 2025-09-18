@@ -1,0 +1,20 @@
+name: social_media_hashtag_generator
+description: A Social Media Hashtag Generator app.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http_testing: ^1.0.0 # Replaced mockito with this
+
+flutter:
+  uses-material-design: true
